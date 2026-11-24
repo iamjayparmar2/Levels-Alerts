@@ -1,0 +1,27 @@
+# Touch timeframe; the Actions workflow runs approximately every five minutes.
+chart_minutes: 5
+
+# Public market sources used by the supplied working repository:
+# OKX OHLCV for crypto; Yahoo Finance candles for FX and futures.
+symbols:
+  - {name: XAUUSD, source: yfinance, symbol: "GC=F"}       # Gold futures proxy
+  - {name: XAGUSD, source: yfinance, symbol: "SI=F"}       # Silver futures proxy
+  - {name: BTC, source: ccxt, exchange: okx, symbol: "BTC/USDT"}
+  - {name: ETH, source: ccxt, exchange: okx, symbol: "ETH/USDT"}
+  - {name: USOIL, source: yfinance, symbol: "CL=F"}        # WTI futures proxy
+  - {name: EURUSD, source: yfinance, symbol: "EURUSD=X"}
+  - {name: GBPUSD, source: yfinance, symbol: "GBPUSD=X"}
+  - {name: AUDUSD, source: yfinance, symbol: "AUDUSD=X"}
+  - {name: NZDUSD, source: yfinance, symbol: "NZDUSD=X"}
+  - {name: USDCHF, source: yfinance, symbol: "CHF=X"}
+  - {name: EURCHF, source: yfinance, symbol: "EURCHF=X"}
+  - {name: GBPCHF, source: yfinance, symbol: "GBPCHF=X"}
+  - {name: USDJPY, source: yfinance, symbol: "JPY=X"}
+  - {name: EURJPY, source: yfinance, symbol: "EURJPY=X"}
+  - {name: GBPJPY, source: yfinance, symbol: "GBPJPY=X"}
+  - {name: AUDJPY, source: yfinance, symbol: "AUDJPY=X"}
+  - {name: GBPCAD, source: yfinance, symbol: "GBPCAD=X"}
+  - {name: AUDCAD, source: yfinance, symbol: "AUDCAD=X"}
+  - {name: EURAUD, source: yfinance, symbol: "EURAUD=X"}
+  - {name: EURGBP, source: yfinance, symbol: "EURGBP=X"}
+  - {name: CHFJPY, source: yfinance, symbol: "CHFJPY=X"}
