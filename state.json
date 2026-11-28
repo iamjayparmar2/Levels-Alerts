@@ -58,7 +58,7 @@
       ]
     },
     "BTC": {
-      "last_candle": "2026-11-28T01:20:00+00:00",
+      "last_candle": "2026-11-28T09:10:00+00:00",
       "sent": [
         "P4H HIGH|2026-10-16 04:00 UTC",
         "P4H HIGH|2026-10-17 00:00 UTC",
@@ -96,7 +96,7 @@
       ]
     },
     "ETH": {
-      "last_candle": "2026-11-28T01:20:00+00:00",
+      "last_candle": "2026-11-28T09:10:00+00:00",
       "sent": [
         "P4H HIGH|2026-10-15 12:00 UTC",
         "P4H HIGH|2026-10-15 16:00 UTC",
@@ -372,5 +372,5 @@
       ]
     }
   },
-  "telegram_update_offset": 574620375
+  "telegram_update_offset": 574620376
 }
